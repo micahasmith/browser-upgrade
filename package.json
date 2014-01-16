@@ -1,0 +1,29 @@
+{
+  "name": "browser-upgrade",
+  "version": "0.1.0",
+  "description": "Sugar over selenium webdriver",
+  "main": "./bin/browserupgrade.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/micahasmith/browser-upgrade.git"
+  },
+  "keywords": [
+    "selenium",
+    "webdriver",
+    "automation",
+    "test"
+  ],
+  "author": "micah smith",
+  "license": "MIT",
+  "readmeFilename": "README.md",
+  "gitHead": "47137e9ec8f883912f8b3d96abd4f60040dab880",
+  "bugs": {
+    "url": "https://github.com/micahasmith/browser-upgrade/issues"
+  },
+  "dependencies": {
+    "wd": "~0.2.8"
+  }
+}
