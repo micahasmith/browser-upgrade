@@ -49,8 +49,8 @@ Click first element that matches `class`
 ### `clickById(xpath, amt, cb)`
 Click an element that matches `id`
 
-### `keyById(id,val,cb)
+### `keyById(id,val,cb)`
 Send the keys `val` to an input/element with id `id`
 
-### `keyByX(id,val,cb)
+### `keyByX(id,val,cb)`
 Send the keys `val` to the first input/element matching xpath `xpath`
