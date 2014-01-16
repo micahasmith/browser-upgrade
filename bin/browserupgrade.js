@@ -55,7 +55,7 @@
         return el.sendKeys(val, cb);
       });
     };
-    b.keyByXPath = function(id, val, cb) {
+    b.keyByX = function(id, val, cb) {
       if (!val) {
         return cb();
       }

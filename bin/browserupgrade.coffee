@@ -39,7 +39,7 @@ module.exports = (b) ->
     b.elementById id, (e,el)->
       el.sendKeys val, cb
 
-  b.keyByXPath = (id,val,cb)->
+  b.keyByX = (id,val,cb)->
     if !val then return cb()
     b.elementByXPathOrNull id, (e,el)->
       el.sendKeys val, cb
