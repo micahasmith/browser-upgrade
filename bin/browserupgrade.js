@@ -47,6 +47,22 @@
         return b.clickElement(el, cb);
       });
     };
+    b.keyById = function(id, val, cb) {
+      if (!val) {
+        return cb();
+      }
+      return b.elementById(id, function(e, el) {
+        return el.sendKeys(val, cb);
+      });
+    };
+    b.keyByXPath = function(id, val, cb) {
+      if (!val) {
+        return cb();
+      }
+      return b.elementByXPathOrNull(id, function(e, el) {
+        return el.sendKeys(val, cb);
+      });
+    };
     return b;
   };
 
